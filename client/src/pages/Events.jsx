@@ -2,6 +2,9 @@ import React from 'react';
 
 // Import your event images
 import eventImage1 from '../assets/event1.jpg'; // Example image for event 1
+import eventImage2 from '../assets/event1.jpg'; // Example image for event 2
+import eventImage3 from '../assets/event1.jpg'; // Example image for event 3
+import eventImage4 from '../assets/event1.jpg'; // Example image for event 4
 
 const UpcomingEvents = () => {
   const events = [
@@ -16,21 +19,21 @@ const UpcomingEvents = () => {
       date: { day: '22', month: 'JUL' },
       title: 'Innovators Summit',
       location: 'Convention Center, City',
-      image: eventImage1, // Add image to event data
+      image: eventImage2, // Add image to event data
       actionText: 'Register Now',
     },
     {
       date: { day: '10', month: 'AUG' },
       title: 'Web Development Workshop',
       location: 'Online Webinar',
-      image: eventImage1, // Add image to event data
+      image: eventImage3, // Add image to event data
       actionText: 'View Details',
     },
     {
       date: { day: '05', month: 'SEP' },
       title: 'AI & Robotics Expo',
       location: 'Exhibition Hall, Town',
-      image: eventImage1, // Add image to event data
+      image: eventImage4, // Add image to event data
       actionText: 'Find Out More',
     },
   ];
