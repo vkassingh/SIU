@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Layout from '../../components/Layout'; // Assuming you have a Layout component
-import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/solid'; // Example for accordion icons. Install if not present: npm install @heroicons/react
+import Layout from '../../components/Layout';
+import { ChevronDown, ChevronUp } from 'lucide-react'; // Changed import from @heroicons/react to lucide-react
 
-const Diploma= () => {
+const Diploma = () => {
     // You might want to fetch this data from an API or a more structured source
     const diplomaCourses = [
         {
@@ -13,7 +13,7 @@ const Diploma= () => {
                 age: 'No specific age limit mentioned, typically 17 years and above.',
                 entrance: 'Admission based on merit in 10+2 or college-level entrance exam if applicable.'
             },
-              image: 'https://cdn.pixabay.com/photo/2023/10/01/14/40/medicine-8287535_1280.jpg', // Reusing pharmacy image
+            image: 'https://cdn.pixabay.com/photo/2023/10/01/14/40/medicine-8287535_1280.jpg', // Reusing pharmacy image
             careerOpportunities: [
                 'Pharmacist Assistant',
                 'Drug Store Operator',
@@ -30,7 +30,7 @@ const Diploma= () => {
                 age: 'Typically no specific age limit mentioned, but check specific institution guidelines.',
                 entrance: 'Admission based on merit in 10th/12th or state-level polytechnic entrance examinations.'
             },
-           image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Generic learning/hands-on image
+            image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', // Generic learning/hands-on image
             careerOpportunities: [
                 'Junior Engineer',
                 'Supervisor',
@@ -78,9 +78,9 @@ const Diploma= () => {
                                         >
                                             Admission Eligibility Criteria
                                             {openAccordion === index ? (
-                                                <ChevronUpIcon className="w-5 h-5 ml-2" />
+                                                <ChevronUp className="w-5 h-5 ml-2" /> // Replaced ChevronUpIcon with ChevronUp
                                             ) : (
-                                                <ChevronDownIcon className="w-5 h-5 ml-2" />
+                                                <ChevronDown className="w-5 h-5 ml-2" /> // Replaced ChevronDownIcon with ChevronDown
                                             )}
                                         </button>
                                         {openAccordion === index && (
@@ -108,12 +108,12 @@ const Diploma= () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="
-                                          mt-6 inline-flex items-center justify-center w-full
-                                          bg-orange-600 text-white font-bold py-3 px-6
-                                          rounded-full shadow-lg
-                                          hover:bg-orange-700 hover:scale-105
-                                          transition-all duration-300 ease-in-out
-                                          focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-75
+                                            mt-6 inline-flex items-center justify-center w-full
+                                            bg-orange-600 text-white font-bold py-3 px-6
+                                            rounded-full shadow-lg
+                                            hover:bg-orange-700 hover:scale-105
+                                            transition-all duration-300 ease-in-out
+                                            focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-opacity-75
                                         "
                                     >
                                         Enroll Now

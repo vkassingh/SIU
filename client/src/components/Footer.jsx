@@ -68,20 +68,16 @@ function Footer() {
               <div className="flex items-start gap-2 hover:text-orange-500 transition-colors">
                 <MapPin size={18} className="mt-1 shrink-0" />
                 <span className="leading-snug">
-                  10th KM Stone, Aligarh – Mathura Road, Aligarh, Uttar Pradesh 202001
+                 12th Km Stone, Sultanpur Road, Near Purvanchal Expressway, Gosaiganj, Lucknow, Uttar Pradesh - 226 022
                 </span>
               </div>
               <div className="flex items-center gap-2 hover:text-orange-500 transition-colors">
                 <Phone size={18} className="shrink-0" />
-                <span>09555699988</span>
+                <span>+91 95137-31275</span>
               </div>
               <div className="flex items-center gap-2 hover:text-orange-500 transition-colors">
                 <Phone size={18} className="shrink-0" />
-                <span>09810054878</span>
-              </div>
-              <div className="flex items-center gap-2 hover:text-orange-500 transition-colors">
-                <Mail size={18} className="shrink-0" />
-                <span>admission.cell@seglko.org</span>
+                <span>+91-522-311-6178</span>
               </div>
             </div>
 

@@ -32,8 +32,8 @@ const WhyChooseUs = () => {
   return (
     <section className="bg-blue-50 bg-opacity-70 py-8 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-center text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 sm:mb-8 relative pb-2">
-          <span className="border-l-4 border-blue-500 pl-4">EXPLORE </span><span className="text-blue-500">SIU</span>
+        <h1 className="text-center text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 sm:mb-8 relative pb-2">
+          <span>EXPLORE </span><span className="text-blue-500">SIU</span>
         </h1>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
