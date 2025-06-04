@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
   return (
     <section className="bg-blue-50 bg-opacity-70 py-8 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-center text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 sm:mb-8 relative pb-2">
+        <h1 className="text-center text-2xl sm:text-5xl font-extrabold text-gray-900 mb-6 sm:mb-8 relative pb-2">
           <span>EXPLORE </span><span className="text-blue-500">SIU</span>
         </h1>
 

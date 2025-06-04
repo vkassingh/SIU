@@ -11,8 +11,9 @@ const navItems = [
     path: "/about",
     subItems: [
       { title: "About SIU", path: "/about/about-siu" },
-      { title: "Core Values", path: "/about/core-values" },
+      { title: "History of SIU", path: "/about/history" },
       { title: "Vision & Mission", path: "/about/vision-mission" },
+      { title: "Chairman's Message", path: "/about/chairman-message" },
     ],
   },
   {
@@ -88,11 +89,11 @@ function Header() {
         <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center" onClick={closeAllMenus}>
-              <img src={logo} alt="SSITM logo" className="h-12 w-auto" />
+              <img src={logo} alt="SIU logo" className="h-16 w-auto" />
             </Link>
 
             <ul
-              className="hidden md:flex space-x-6 text-md items-center"
+              className="hidden md:flex space-x-6 text-xl items-center"
               ref={menuRef}
             >
               {navItems.map((item, index) => (

@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout.jsx';
 import WhyChooseUs from './WhyChooseUs.jsx';
-import Research from './Research.jsx';
-import Events from './Events.jsx';
+import ResearchPage from './ResearchPage.jsx';
+import EventsPage from './EventsPage.jsx';
 import HeroSection from '../components/HeroSection.jsx';
 import Footer from '../components/Footer.jsx';
 
@@ -11,8 +11,8 @@ function Home() {
    <>  
    <HeroSection />
    <WhyChooseUs />
-   <Research />
-   <Events />
+   <ResearchPage />
+   <EventsPage />
    <Footer />
    </>
   );

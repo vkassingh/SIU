@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../../components/Layout";
 import WhyChooseUs from "../WhyChooseUs";
 
-const About = () => {
+const AboutSIU = () => {
   return (
     <Layout>
       
@@ -11,4 +11,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSIU;

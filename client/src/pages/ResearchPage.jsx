@@ -20,30 +20,8 @@ const researchPapers = [
     journal: "International Journal of Pharmaceutical Sciences and Research",
     year: 2022,
   },
-  {
-    author: "Dr. Neeraj Kumar Dixit",
-    title: "Design of Vaccine Targeting Zika Virus Polyprotein by immunoinformatics technique",
-    journal: "International Journal of Peptide Research and Therapeutics",
-    year: 2022,
-  },
-  {
-    author: "Dr. Neeraj Kumar Dixit",
-    title: "Epitope-based vaccine candidates developing against a life-threatening illness identified in silico approach",
-    journal: "High Technology Letter",
-    year: 2024,
-  },
-  {
-    author: "Dr. Neeraj Kumar Dixit",
-    title: "Implementation of immunoinformatics approach to design an epitope vaccine against Dengue infection",
-    journal: "High Technology Letter",
-    year: 2024,
-  },
-  {
-    author: "Dr. Neeraj Kumar Dixit",
-    title: "In Silico strategies for predicting Therapeutic Peptides targeting the Capsid Protein of the Dengue Virus",
-    journal: "Journal of Proteins and Proteomics",
-    year: 2024,
-  }
+
+
 ];
 
 export default function Research() {
@@ -52,7 +30,7 @@ export default function Research() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"> {/* Adjusted padding */}
 
         {/* Page Heading */}
-        <h1 className="text-center text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6 sm:mb-8 relative pb-2">
+        <h1 className="text-center text-2xl sm:text-5xl font-extrabold text-gray-900 mb-6 sm:mb-8 relative pb-2">
           <span className="">UNIVERSITY <span className="text-blue-500">RESEARCH</span></span> {/* Blue theme for heading */}
         </h1>
         <p className="mt-1 max-w-xl mx-auto text-xl text-gray-600 text-center mb-14"> {/* Centered paragraph */}
@@ -79,7 +57,7 @@ export default function Research() {
         </div>
 
         <div className="overflow-x-auto bg-white rounded-lg shadow-md p-6"> {/* Table container styling */}
-          <h2 className="text-2xl font-bold text-gray-900 mb-4 px-2">RECENT PUBLICATIONS</h2> {/* Added heading for the table */}
+          <h2 className="text-xl font-bold text-gray-900 mb-4 px-2">RECENT PUBLICATIONS</h2> {/* Added heading for the table */}
           <table className="min-w-full table-auto text-left border-collapse"> {/* Removed top border, used border-collapse */}
             <thead>
               <tr className="bg-blue-100 text-sm text-blue-800 uppercase tracking-wider"> {/* Blue theme for table header */}

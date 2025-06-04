@@ -50,7 +50,7 @@ const UpcomingEvents = () => {
     <div className="bg-blue-50 py-11 px-4 sm:px-6 lg:px-8 pb-30">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14 overflow-hidden">
-          <h2 className="text-center text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2 sm:mb-4 relative pb-2">
+          <h2 className="text-center text-2xl sm:text-5xl font-extrabold text-gray-900 mb-2 sm:mb-4 relative pb-2">
             <span>UPCOMING <span className="text-blue-500">EVENTS</span></span>
           </h2>
           <p className="mt-1 max-w-xl mx-auto text-xl text-gray-600">

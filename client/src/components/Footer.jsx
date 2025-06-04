@@ -7,14 +7,25 @@ import {
   Linkedin,
   Facebook,
 } from 'lucide-react';
+import siuLogo from '../assets/logo.png';
 
 function Footer() {
   return (
     <footer className="w-full bg-black text-white">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
+
+ {/* College Logo */}
+<div className="flex flex-col items-start space-y-4">
+  <img src={siuLogo} alt="SIU Logo" className="w-40 h-auto object-contain" />
+  <p className="text-md text-white-700 max-w-2xl">
+    Saroj International University is committed to excellence in education, empowering the future.
+  </p>
+</div>
+
+
           {/* Other Colleges */}
           <div className="space-y-4">
             <h3 className="text-lg font-bold">Other Colleges</h3>
