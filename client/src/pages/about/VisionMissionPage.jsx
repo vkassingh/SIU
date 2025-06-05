@@ -24,7 +24,7 @@ const VisionMissionPage = () => {
             <div className="md:w-1/2 mb-6 md:mb-0">
               {/* Replace with your actual Mission image */}
               <img
-                src="https://via.placeholder.com/600x400/ADD8E6/000000?text=Saroj+Mission+Image"
+                src="https://media.istockphoto.com/id/994786356/photo/double-exposure-of-a-businessman-and-stairs-success-of-business-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=jDxJhC5uiiPvEvLVa-VxjP0yAmDHhNZsCck8To30LMA="
                 alt="Saroj International University Mission"
                 className="rounded-xl w-full h-auto object-cover"
               />
@@ -56,7 +56,7 @@ const VisionMissionPage = () => {
             <div className="md:w-1/2 mb-6 md:mb-0">
               {/* Replace with your actual Vision image */}
               <img
-                src="https://via.placeholder.com/600x400/90EE90/000000?text=Saroj+Vision+Image"
+                src="https://plus.unsplash.com/premium_photo-1669904022334-e40da006a0a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWlzc2lvbnxlbnwwfDB8MHx8fDA%3D"
                 alt="Saroj International University Vision"
                 className="rounded-xl w-full h-auto object-cover"
               />
