@@ -6,7 +6,7 @@ import AdmissionCriteria from "./pages/admission/AdmissionCriteria";
 import ScholarshipPage from "./pages/admission/ScholarshipPage";
 import AdmissionProcess from "./pages/admission/AdmissionProcess";
 import HistoryPage from "./pages/about/HistoryPage";
-import HistoryPage from "./pages/about/VisionMissionPage";
+import VisionMissionPage from "./pages/about/VisionMissionPage";
 
 function App() {
   return (
