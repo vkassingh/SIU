@@ -1,6 +1,5 @@
 import React from "react";
 import heroImage from "../assets/bg.jpg";
-import Header from "./Header";
 
 const HeroSection = () => {
   return (
@@ -8,8 +7,6 @@ const HeroSection = () => {
       className="relative bg-cover bg-center min-h-screen"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      {/* Sticky Header */}
-      <Header className="sticky top-0 z-50" />
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50 z-0"></div>

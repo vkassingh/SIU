@@ -1,20 +1,21 @@
-import React from 'react';
-import Layout from '../components/Layout.jsx';
-import WhyChooseUs from './WhyChooseUs.jsx';
-import ResearchPage from './ResearchPage.jsx';
-import EventsPage from './EventsPage.jsx';
-import HeroSection from '../components/HeroSection.jsx';
-import Footer from '../components/Footer.jsx';
+import Layout from "../components/Layout.jsx";
+import WhyChooseUs from "./WhyChooseUs.jsx";
+import ResearchPage from "./ResearchPage.jsx";
+import EventsPage from "./EventsPage.jsx";
+import HeroSection from "../components/HeroSection.jsx";
+import Happenings from "../components/Happenings.jsx";
 
 function Home() {
   return (
-   <>  
-   <HeroSection />
-   <WhyChooseUs />
-   <ResearchPage />
-   <EventsPage />
-   <Footer />
-   </>
+    <>
+      <Layout>
+        <HeroSection/>
+        <Happenings />
+        <WhyChooseUs />
+        <ResearchPage />
+        <EventsPage />
+      </Layout>
+    </>
   );
 }
 
